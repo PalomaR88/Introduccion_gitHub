@@ -7,6 +7,7 @@
 https://about.gitlab.com/
 ~~~
 
+
 - Configurar un par de claves
 	- Crear un par de claves
 	~~~
@@ -24,7 +25,8 @@ https://about.gitlab.com/
 	~~~
 	Deben listarse 2 claves: id_rsa (privada) e id_rsa.pub (pública).
 
-	-Copiar clave pública
+
+	- Copiar clave pública
 	~~~
 	cat ~/.ssh/id_rsa.pub
 	ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
@@ -36,10 +38,12 @@ https://about.gitlab.com/
 	~~~
 	Pegar la información anterior en la web GitHub: Settings/SSH and GPG keys/New SSH key
 
+
 - Instalar Git
 ~~~
 sudo apt-get install git
 ~~~
+
 
 - Configurar nuestro cliente Git
 ~~~
@@ -47,6 +51,7 @@ git config --global user.name "nombre_cliente"
 git config --global user.mail nombre_correo@correo.com
 ~~~
 Con la opción --global permite utilizar los datos anteriores por defecto.
+
 
 - Opciones adicionales
 Editor de texto
@@ -62,6 +67,7 @@ Ver la configuración
 git config --list
 ~~~
 
+
 - Comandos básicos
 Ejecutar repositorios
 ~~~
@@ -70,11 +76,13 @@ cd primer_repositorio
 git init
 ~~~
 
+
 Clonar un repositorio
 Comando Git clone seguido de la dirección de la página de GitHub a copiar: Clone or download/Clone with SSH
 ~~~
 git clone git@github.com:usuario_que_copia/copia.git
 ~~~
+
 
 Agregar ficheros
 ~~~
@@ -83,8 +91,8 @@ git commit -m "creacion fichero_ejemplo"
 git push
 ~~~
 
-Cambios en tu copia local - COMMIT
 
+Cambios en tu copia local - COMMIT
 ~~~
 git commit -am 'cambio que se ha realizado'
 ~~~
@@ -94,6 +102,7 @@ Ver archivos cambiados pero no subidos
 ~~~
 git status
 ~~~
+
 
 Enviar todos cambios
 ~~~
