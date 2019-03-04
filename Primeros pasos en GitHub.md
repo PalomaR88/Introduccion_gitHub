@@ -1,6 +1,6 @@
-##Primeros pasos en GitHub
+## Primeros pasos en GitHub
 
-###Crear una cuenta
+### Crear una cuenta
 
 - Entra en GitHub y crea una cuenta
 ~~~
