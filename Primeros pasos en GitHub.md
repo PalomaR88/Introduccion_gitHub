@@ -39,13 +39,13 @@ https://about.gitlab.com/
 	Pegar la información anterior en la web GitHub: Settings/SSH and GPG keys/New SSH key
 
 
-- Instalar Git
+### Instalar Git
 ~~~
 sudo apt-get install git
 ~~~
 
 
-- Configurar nuestro cliente Git
+### Configurar nuestro cliente Git
 ~~~
 git config --global user.name "nombre_cliente"
 git config --global user.mail nombre_correo@correo.com
@@ -53,7 +53,7 @@ git config --global user.mail nombre_correo@correo.com
 Con la opción --global permite utilizar los datos anteriores por defecto.
 
 
-- Opciones adicionales
+### Opciones adicionales
 Editor de texto
 ~~~
 git config --global core.editor nano
@@ -68,7 +68,7 @@ git config --list
 ~~~
 
 
-- Comandos básicos
+### Comandos básicos
 Ejecutar repositorios
 ~~~
 mkdir primer_repositorio
